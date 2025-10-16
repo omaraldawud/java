@@ -25,7 +25,7 @@ public class MiniCalculatorV2 {
         System.out.println("1. Add\n2. Subtract\n3. Area of Circle\n4. Exit");
         return sc.nextInt();
     }
-
+/push
     public static double add(Scanner sc) {
         System.out.println("Enter two numbers:");
         return sc.nextDouble() + sc.nextDouble();
