@@ -2,10 +2,22 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Loops {
     public static void main(String[] args) {
-        System.out.println("/n Using FOR Loop");
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
+
+double x2 = 19; double y = 2;
+
+       int t;  // define
+       int T = 10;  // define and init
+
+        t = 11; // init
+        int x = t + T;
+
+
+// Sum numbers from 1 to 5 (1 + 2 +3 +4 + 5)
+        int sum = 0;
+        for (int i = 1 ; i <= 5 ; i++) {
+              sum = sum +  i;
         }
+        System.out.println("sum = " + sum);
 
         System.out.println("/n Using While Loop");
         int i = 0;
@@ -23,3 +35,5 @@ public class Loops {
 
     }
 }
+
+// javac SourceCode.java ==> SourceCode.class (bytecode)

@@ -2,7 +2,7 @@
 //If you’re near the store and have cash, buy milk.
 //If you’re near the store, have no cash, but have a credit card, buy milk and sugar.
 //If you’re near the store, and have both cash and credit card, buy milk, sugar, and tomatoes.
-//Otherwise, don’t buy anything.
+//Otherwise, don’t buy anything./push
 
 
 public class MomShoppingLogic {
